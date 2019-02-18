@@ -4,7 +4,14 @@ Violets are BLUE. OLS is too.
 `violets` is a package for `R` which re-estimates fancy statistical
 models using simple OLS.
 
+Install and load:
+
 ``` r
+# install from github
+library(remotes)
+install_github('vincentarelbundock/violets')
+
+# load
 library(violets)
 ```
 
@@ -54,7 +61,7 @@ violets(mod)
     ## (Intercept)      Sexmale          Age    PClass2nd    PClass3rd  
     ##    1.130523    -0.501326    -0.006005    -0.207434    -0.393344
 
-Your ordered logit model could be BLUE:
+Your ordered logit model of ??? could be BLUE:
 
 ``` r
 library(MASS)

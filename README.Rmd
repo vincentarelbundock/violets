@@ -7,7 +7,7 @@ output: github_document
 
 Install and load:
 
-```{r}
+```{r, message=FALSE}
 # install from github
 library(remotes)
 install_github('vincentarelbundock/violets')
@@ -36,7 +36,7 @@ mod <- glm(Survived ~ Sex + Age + PClass, data = dat, family = binomial(link = '
 violets(mod)
 ```
 
-Your ordered logit model could be BLUE:
+Your ordered logit model of ??? could be BLUE:
 
 ```{r}
 library(MASS)
