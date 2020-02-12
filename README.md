@@ -1,5 +1,7 @@
-Violets are BLUE. OLS is too.
-================
+# Roses are red
+# Violets are BLUE
+# Why use Logit
+# When OLS will do
 
 `violets` is a package for `R` which re-estimates fancy statistical
 models using simple OLS.
