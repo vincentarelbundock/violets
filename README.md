@@ -9,6 +9,8 @@
 `violets` is a package for `R` which re-estimates fancy statistical
 models using simple OLS.
 
+Original idea by: @abhworthington 
+
 Install and load:
 
 ``` r
