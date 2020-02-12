@@ -1,9 +1,9 @@
 # Violets are BLUE
 
-> Roses are red .  
-> Violets are BLUE .  
-> Why use Logit .  
-> When OLS will do .  
+> Roses are red   
+> Violets are BLUE   
+> Why fit a curve   
+> When a line will do   
 
 
 
