@@ -1,4 +1,3 @@
-# Violets are BLUE
 
 > Roses are red   
 > Violets are BLUE   
