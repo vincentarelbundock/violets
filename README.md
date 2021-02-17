@@ -1,15 +1,12 @@
+Violets are BLUE. OLS is too.
+================
 
-> Roses are red   
-> Violets are BLUE   
-> Why fit a curve   
-> When a line will do   
-
-
+<img src="https://user-images.githubusercontent.com/987057/108229189-939d3880-710d-11eb-80ff-0d4f5acc53da.png" align="right" alt="" width="200" />
 
 `violets` is a package for `R` which re-estimates fancy statistical
 models using simple OLS.
 
-Original idea by: @abhworthington 
+Original idea by @abhworthington. Hex logo by @researchremora. Thanks!
 
 Install and load:
 
@@ -17,13 +14,14 @@ Install and load:
 # install from github
 library(remotes)
 install_github('vincentarelbundock/violets')
+```
 
+``` r
 # load
 library(violets)
 ```
 
-Your Poisson model of horse kicks to the head could be
-BLUE:
+Your Poisson model of horse kicks to the head could be BLUE:
 
 ``` r
 url <- 'https://vincentarelbundock.github.io/Rdatasets/csv/pscl/prussian.csv'
@@ -40,15 +38,14 @@ violets(mod)
     ## stats::lm(formula = f, data = mf)
     ## 
     ## Coefficients:
-    ## (Intercept)        corpI       corpII      corpIII       corpIV  
-    ##  -3.073e-01   -2.808e-15   -2.000e-01   -2.000e-01   -4.000e-01  
-    ##      corpIX        corpV       corpVI      corpVII     corpVIII  
-    ##  -1.500e-01   -2.500e-01    5.000e-02   -2.000e-01   -4.500e-01  
-    ##       corpX       corpXI      corpXIV       corpXV         year  
-    ##  -5.000e-02    4.500e-01    4.000e-01   -4.000e-01    1.310e-02
+    ## (Intercept)        corpI       corpII      corpIII       corpIV       corpIX  
+    ##  -3.073e-01   -1.874e-15   -2.000e-01   -2.000e-01   -4.000e-01   -1.500e-01  
+    ##       corpV       corpVI      corpVII     corpVIII        corpX       corpXI  
+    ##  -2.500e-01    5.000e-02   -2.000e-01   -4.500e-01   -5.000e-02    4.500e-01  
+    ##     corpXIV       corpXV         year  
+    ##   4.000e-01   -4.000e-01    1.310e-02
 
-Your probit model of deaths aboard the titanic could be
-BLUE:
+Your probit model of deaths aboard the titanic could be BLUE:
 
 ``` r
 url <- 'http://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/Titanic.csv'

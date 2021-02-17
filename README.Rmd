@@ -3,15 +3,20 @@ title: "Violets are BLUE. OLS is too."
 output: github_document
 ---
 
+<img src="https://user-images.githubusercontent.com/987057/108229189-939d3880-710d-11eb-80ff-0d4f5acc53da.png" align="right" alt="" width="200" />
+
 `violets` is a package for `R` which re-estimates fancy statistical models using simple OLS.
+
+Original idea by @abhworthington. Hex logo by @researchremora. Thanks!
 
 Install and load:
 
-```{r, message=FALSE}
+```{r, eval = FALSE, message=FALSE}
 # install from github
 library(remotes)
 install_github('vincentarelbundock/violets')
 
+```{r}
 # load
 library(violets)
 ```
